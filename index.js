@@ -67,6 +67,7 @@ console.log(addNums(5)(6)(7));
 // position in css -- default position
 // Block level HTMLS
 // Redux  == Flux
+// customize default validation. which attribute
 
 
 
