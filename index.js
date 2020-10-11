@@ -24,28 +24,28 @@ const users = [
   }
 ]
 //let b = JSON.parse(JSON.stringify(a));
-// deep copy
-//const newUser = JSON.parse(JSON.stringify(users));
 
+// deep copy Wrong way
 // Wrong way
-// const newUser = users.map((val) => {
-//     if(val.name === 'John') {
-//         val.title = "lead";
-//         return val;
-//     }
-//     return val;
-// });
+const newUser = JSON.parse(JSON.stringify(users));
+newUser.map((val) => {
+    if(val.name === 'John') {
+        val.title = "lead";
+        return val;
+    }
+    return val;
+});
 
 //Right Way
-const newUser = users.map((val) => {
-    let newTitle = '';
-    if(val.name === 'John') {
-        newTitle = "lead";
-    } else {
-        newTitle = "developer"
-    }
-    return { ...val, title : newTitle }
-});
+// const newUser = users.map((val) => {
+//     let newTitle = '';
+//     if(val.name === 'John') {
+//         newTitle = "lead";
+//     } else {
+//         newTitle = "developer"
+//     }
+//     return { ...val, title : newTitle }
+// });
 
 console.log(newUser);
 console.log(users);
