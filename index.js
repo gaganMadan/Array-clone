@@ -64,11 +64,13 @@ console.log(addNums(5)(6)(7));
 
 
 // css specificity
-// position in css -- default position
+// position in css -- default position // Default position static position
 // Block level HTMLS
 // Redux  == Flux
 // customize default validation. which attribute  ----- setCustomValidity Method
 
+
+// HTML debouncing, throttling , Web Worker, CSS Object Model,
 
 
 
