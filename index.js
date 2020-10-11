@@ -64,7 +64,7 @@ console.log(addNums(5)(6)(7));
 
 
 // css specificity
-// position in css
+// position in css -- default position
 // Block level HTMLS
 // Redux  == Flux
 
