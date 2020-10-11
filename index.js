@@ -72,6 +72,8 @@ console.log(addNums(5)(6)(7));
 
 // HTML debouncing, throttling , Web Worker, CSS Object Model,
 
+//setState
+
 
 
 
